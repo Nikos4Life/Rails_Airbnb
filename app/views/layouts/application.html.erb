@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Airbnb</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<header>
+	<nav>
+		<ul>
+			<li>
+				<a href="">Home</a>
+			</li>
+			<li>
+				<a href="">Become a Host</a>
+			</li>
+			<li>
+				<a href="">Help</a>
+			</li>
+			<li>
+				<a href="">Sign up</a>
+			</li>
+			<li>
+				<a href="">Log in</a>
+			</li>
+		</ul>
+	</nav>
+</header>
+<%= yield %>
+
+</body>
+</html>
